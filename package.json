@@ -1,0 +1,13 @@
+{
+  "name": "reworked-2024-winter-piter-contract-first-tools",
+  "version": "1.0.0",
+  "description": "Contract-first API development presentation",
+  "private": true,
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  },
+  "scripts": {
+    "build": "marp --allow-local-files --html PITCHME.md -o index.html",
+    "preview": "marp --allow-local-files --html PITCHME.md --watch"
+  }
+}
